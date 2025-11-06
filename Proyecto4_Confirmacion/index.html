@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8" />
+  <title>Proyecto 4 - PDF | Oscar Rondón</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="wrap">
+   <h1>Generar comprobante</h1>
+   <p>Introduce tu nombre y genera un PDF con jsPDF</p>
+   <input
+    id="nombre"
+    placeholder="Tu nombre (ej: Oscar Rondón)"
+    value="Oscar Rondón"
+   />
+   <div>
+    <button id="btnPdf">Generar y descargar PDF</button>
+    <button id="btnBack">Volver</button>
+   </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="main.js"></script>
+ </body>
+</html>

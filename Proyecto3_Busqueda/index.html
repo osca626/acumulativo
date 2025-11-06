@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto 3 - Calculadora de Promedios (Cavirey)</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <header>
+   <h1>📘 Calculadora de Promedios Escolares</h1>
+   <p>Proyecto 3 — Oscar Rondón, Grado 10-1</p>
+  </header>
+
+  <main>
+   <section class="calculadora">
+    <h2>Ingresa tus tres notas (de 45 a 100)</h2>
+    <input
+     type="number"
+     id="nota1"
+     placeholder="Nota 1"
+     min="45"
+     max="100"
+     step="1"
+    />
+    <input
+     type="number"
+     id="nota2"
+     placeholder="Nota 2"
+     min="45"
+     max="100"
+     step="1"
+    />
+    <input
+     type="number"
+     id="nota3"
+     placeholder="Nota 3"
+     min="45"
+     max="100"
+     step="1"
+    />
+    <button id="calcular">Calcular Promedio</button>
+    <div id="resultado"></div>
+   </section>
+  </main>
+
+  <footer>
+   <p>Desarrollado por Oscar Rondón © 2025 — Colegio Cavirey</p>
+  </footer>
+
+  <script src="main.js"></script>
+ </body>
+</html>

@@ -1,0 +1,4 @@
+body{font-family:Poppins,system-ui;background:#f3f4f6;color:#0b1220;margin:0;display:flex;align-items:center;justify-content:center;height:100vh}
+.wrap{background:#fff;padding:26px;border-radius:12px;box-shadow:0 12px 40px rgba(2,6,23,.08);text-align:center}
+input{padding:10px;border-radius:8px;border:1px solid #e5e7eb;width:280px;margin:10px 0}
+button{padding:10px 14px;border-radius:8px;border:none;background:#2563eb;color:#fff;margin:6px;cursor:pointer}
